@@ -1,6 +1,6 @@
 [user]
   name = Anna Shipman
-  email = [redacted]
+  email = anna@annashipman.co.uk
 
 [color]
   branch = auto
@@ -14,15 +14,9 @@
   br = branch
   co = checkout
   lg = log --pretty=oneline --topo-order --graph --abbrev-commit --decorate
-  
-  #delete merged branches
-  # This does not quite work as expected...
-  #brc = "!f() { \
-  #  git branch --merged master |\
-  #  grep -v '^* master$' |\
-  #  xargs git branch -d; \
-  #}; f"
+
 [core]
   excludesfile = /Users/annashipman/.gitignore_global
+
 [push]
   default = upstream
