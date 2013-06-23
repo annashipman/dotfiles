@@ -1,6 +1,6 @@
 SOURCE		:= $(CURDIR)
 TARGET		:= $(HOME)
-FILES		:= .gitconfig .vimrc .vim
+FILES		:= .gitconfig .gitignore_global .vimrc .vim
 
 all: clean install
 
