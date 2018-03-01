@@ -1,6 +1,6 @@
 SOURCE		:= $(CURDIR)
 TARGET		:= $(HOME)
-FILES		:= .bundle .gitconfig .gitignore_global .profile .tmux.conf .vimrc .vim
+FILES		:= .bundle .gitconfig .gitignore_global .profile .ruby-version .tmux.conf .vimrc .vim
 
 all: clean install
 
