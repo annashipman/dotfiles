@@ -16,7 +16,7 @@
   lg = log --pretty=oneline --topo-order --graph --abbrev-commit --decorate
 
 [core]
-  excludesfile = /Users/annashipman/.gitignore_global
+  excludesfile = ~/.gitignore_global
 
 [push]
   default = upstream
