@@ -11,5 +11,5 @@ fi
 source $HOMEBREW_PREFIX/share/chruby/chruby.sh
 source $HOMEBREW_PREFIX/share/chruby/auto.sh
 
-chruby ruby-2.5.0
+chruby ruby-3.1.1
 alias bx='bundle exec'
